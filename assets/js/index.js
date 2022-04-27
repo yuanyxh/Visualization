@@ -13,7 +13,8 @@ function toggleSlide() {
       icon.removeClass('close').addClass('open');
     }
   })
-
+  
+/* 
   // 默认第一个菜单展开
   $('.nav > li > a').eq(0).trigger('click');
 
@@ -21,7 +22,7 @@ function toggleSlide() {
   $('.nav ul a').on('click', function () {
     $(this).addClass('active')
     $('.nav ul a').not($(this)).removeClass('active');
-  })
+  }) */
 
 }
 
